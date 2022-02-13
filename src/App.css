@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+}
+@media (max-aspect-ratio: 7/10){
+    .JoinPage{
+        background-color: #bce4e4;
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .joinContainer{
+        background-color: rgb(253, 255, 255);
+        height: 50vh;
+        width: 80vw;
+        border: 0.5px solid rgba(14, 163, 189, 0.315);    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #joinInput{
+        /* background-color: #bce4e4; */
+        width: 50vw;
+        text-align: center;
+        padding: 2vw;
+        border:none;
+        border: 0.5px solid #bce4e4;
+        border-radius: 20px;
+        outline: none;
+        /* font-size: 10px; */
+    }
+    #joinInput:hover{
+        background-color: #bce4e4;
+    }
+    #joinbtn{
+        background-color: #82caca;
+        width: 25vw;
+        padding: 2vw;
+        margin-top: 3vh;
+        padding: 1.5vh;
+        border:none;
+        border-radius: 20px;
+        outline: none; 
+    }
+    #joinbtn:hover{
+        background-color:#bce4e4;
+    }
+
+
+    .chatPage{
+        background-color: #cbe6e6;
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .chatContainer{
+        background-color: azure;
+        height: 100vh;
+        width: 100vw;
+    }
+    .imgCut{
+        height: 4vh;
+    }
+    .header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: rgba(75, 221, 221, 0.527);
+        height: 10vh;
+        border: 1px solid rgba(13, 80, 80, 0.527);
+        border-radius: 7px; 
+    } 
+    .body{
+        background-color: rgb(255, 255, 255);
+        height: 80vh;
+        border: 1px solid rgba(13, 80, 80, 0.527);
+        border-radius: 7px;
+    }
+    .footer{
+        background-color: rgba(194, 245, 245, 0.815);
+        height: 10vh;
+        border: 1px solid rgba(13, 80, 80, 0.527);
+        border-radius: 7px;
+        display: flex;
+    
+    }
+    #chatInput{
+        width: 80vw;
+        border: none;
+        padding: 2vh;
+        outline: none;
+        font-size: 2.5vh;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        /* background-color: rgba(194, 245, 245, 0.815); */
+    }
+    #chatButton{
+        width: 20vw;
+        border: none;
+        background-color: rgba(31, 196, 196, 0.993);
+        border-radius: 10px;
+        cursor: pointer;
+        font-size: 2vh;
+        color: #f0f8f8;
+        
+    }
+    #chatButton:hover{
+        background-color: rgba(13, 80, 80, 0.527);
+    }
+    
+
+}
